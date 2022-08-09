@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>771644843955-pignvcmksthjmgt1616v9o5u0olo571d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.771644843955-pignvcmksthjmgt1616v9o5u0olo571d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD_ZMoAanKggV1Knb2nNCarKKlfH2iwOK8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>771644843955</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.joopel-v1.Joopel</string>
+	<key>PROJECT_ID</key>
+	<string>joopel-b6c66</string>
+	<key>STORAGE_BUCKET</key>
+	<string>joopel-b6c66.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:771644843955:ios:83ebb57241f9ba34448dc6</string>
+</dict>
+</plist>

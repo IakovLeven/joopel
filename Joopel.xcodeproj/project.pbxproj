@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC4C5135FEB6842143DB0AA /* Pods_Joopel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDACC2DBD418AF2638F943F /* Pods_Joopel.framework */; };
+		43F77B27869D3B962D58AF0A /* Pods_JoopelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE949299D3ED5B3190B3C1 /* Pods_JoopelTests.framework */; };
+		654990A29936AE3496F98AE3 /* Pods_Joopel_JoopelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B5FF07B80049D7CB61D5F /* Pods_Joopel_JoopelUITests.framework */; };
 		6CCB1AA628A180C100D1781D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AA528A180C100D1781D /* AppDelegate.swift */; };
 		6CCB1AA828A180C100D1781D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AA728A180C100D1781D /* SceneDelegate.swift */; };
-		6CCB1AAA28A180C100D1781D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AA928A180C100D1781D /* ViewController.swift */; };
+		6CCB1AAA28A180C100D1781D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AA928A180C100D1781D /* HomeViewController.swift */; };
 		6CCB1AAF28A180C200D1781D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCB1AAE28A180C200D1781D /* Assets.xcassets */; };
 		6CCB1AB228A180C200D1781D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCB1AB028A180C200D1781D /* LaunchScreen.storyboard */; };
 		6CCB1ABD28A180C300D1781D /* JoopelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1ABC28A180C300D1781D /* JoopelTests.swift */; };
 		6CCB1AC728A180C300D1781D /* JoopelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AC628A180C300D1781D /* JoopelUITests.swift */; };
 		6CCB1AC928A180C300D1781D /* JoopelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AC828A180C300D1781D /* JoopelUITestsLaunchTests.swift */; };
-		6CCB1AD628A1864B00D1781D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCB1AD528A1864B00D1781D /* Main.storyboard */; };
+		6CCB1AE228A1916C00D1781D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AE128A1916C00D1781D /* ExploreViewController.swift */; };
+		6CCB1AE528A1919B00D1781D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AE428A1919B00D1781D /* CameraViewController.swift */; };
+		6CCB1AE728A191AD00D1781D /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AE628A191AD00D1781D /* NotificationsViewController.swift */; };
+		6CCB1AE928A191C500D1781D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AE828A191C500D1781D /* ProfileViewController.swift */; };
+		6CCB1AEB28A191EC00D1781D /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AEA28A191EC00D1781D /* UserListViewController.swift */; };
+		6CCB1AED28A191FA00D1781D /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AEC28A191FA00D1781D /* SigninViewController.swift */; };
+		6CCB1AEF28A1921100D1781D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AEE28A1921100D1781D /* SignUpViewController.swift */; };
+		6CCB1AF128A1922500D1781D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AF028A1922500D1781D /* SettingsViewController.swift */; };
+		6CCB1AF328A1926300D1781D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AF228A1926300D1781D /* TabBarViewController.swift */; };
+		6CCB1AF728A192C700D1781D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AF628A192C700D1781D /* PostViewController.swift */; };
+		6CCB1AF928A1930000D1781D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AF828A1930000D1781D /* APICaller.swift */; };
+		6CCB1AFB28A1931E00D1781D /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AFA28A1931E00D1781D /* StorageManager.swift */; };
+		6CCB1AFD28A1932D00D1781D /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AFC28A1932D00D1781D /* DatabaseManager.swift */; };
+		6CCB1AFF28A1934500D1781D /* AuthentificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AFE28A1934500D1781D /* AuthentificationManager.swift */; };
+		6CCB1B0128A1936500D1781D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1B0028A1936500D1781D /* HapticsManager.swift */; };
+		6CCB1B0528A2512500D1781D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCB1B0428A2512500D1781D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3D2552F15EA2D1CC7C6183 /* Pods-JoopelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoopelTests.release.xcconfig"; path = "Target Support Files/Pods-JoopelTests/Pods-JoopelTests.release.xcconfig"; sourceTree = "<group>"; };
+		20B23D36CD29C2A01B9EAFF5 /* Pods-Joopel-JoopelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joopel-JoopelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Joopel-JoopelUITests/Pods-Joopel-JoopelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2629E483FA999D32D3EFC3C3 /* Pods-Joopel-JoopelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joopel-JoopelUITests.release.xcconfig"; path = "Target Support Files/Pods-Joopel-JoopelUITests/Pods-Joopel-JoopelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BDACC2DBD418AF2638F943F /* Pods_Joopel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Joopel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C247DD078A0CED2328AD0CF /* Pods-Joopel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joopel.release.xcconfig"; path = "Target Support Files/Pods-Joopel/Pods-Joopel.release.xcconfig"; sourceTree = "<group>"; };
+		677B5FF07B80049D7CB61D5F /* Pods_Joopel_JoopelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Joopel_JoopelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCB1AA228A180C100D1781D /* Joopel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joopel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCB1AA528A180C100D1781D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CCB1AA728A180C100D1781D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CCB1AA928A180C100D1781D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CCB1AA928A180C100D1781D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6CCB1AAE28A180C200D1781D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CCB1AB128A180C200D1781D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CCB1AB328A180C200D1781D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +72,25 @@
 		6CCB1AC228A180C300D1781D /* JoopelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoopelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCB1AC628A180C300D1781D /* JoopelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoopelUITests.swift; sourceTree = "<group>"; };
 		6CCB1AC828A180C300D1781D /* JoopelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoopelUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6CCB1AD528A1864B00D1781D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6CCB1AE128A1916C00D1781D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = Joopel/Controllers/Core/ExploreViewController.swift; sourceTree = SOURCE_ROOT; };
+		6CCB1AE428A1919B00D1781D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6CCB1AE628A191AD00D1781D /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		6CCB1AE828A191C500D1781D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6CCB1AEA28A191EC00D1781D /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserListViewController.swift; path = Joopel/Controllers/Core/UserListViewController.swift; sourceTree = SOURCE_ROOT; };
+		6CCB1AEC28A191FA00D1781D /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		6CCB1AEE28A1921100D1781D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6CCB1AF028A1922500D1781D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6CCB1AF228A1926300D1781D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6CCB1AF628A192C700D1781D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		6CCB1AF828A1930000D1781D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		6CCB1AFA28A1931E00D1781D /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		6CCB1AFC28A1932D00D1781D /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		6CCB1AFE28A1934500D1781D /* AuthentificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationManager.swift; sourceTree = "<group>"; };
+		6CCB1B0028A1936500D1781D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		6CCB1B0428A2512500D1781D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		97120F5AB0D70162A60FBA21 /* Pods-JoopelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoopelTests.debug.xcconfig"; path = "Target Support Files/Pods-JoopelTests/Pods-JoopelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D231F5306B7F4BACEB92FFF5 /* Pods-Joopel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joopel.debug.xcconfig"; path = "Target Support Files/Pods-Joopel/Pods-Joopel.debug.xcconfig"; sourceTree = "<group>"; };
+		FAFE949299D3ED5B3190B3C1 /* Pods_JoopelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoopelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC4C5135FEB6842143DB0AA /* Pods_Joopel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F77B27869D3B962D58AF0A /* Pods_JoopelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654990A29936AE3496F98AE3 /* Pods_Joopel_JoopelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +128,8 @@
 				6CCB1ABB28A180C300D1781D /* JoopelTests */,
 				6CCB1AC528A180C300D1781D /* JoopelUITests */,
 				6CCB1AA328A180C100D1781D /* Products */,
+				F3C216E6E3E8DCE9CF3D1491 /* Pods */,
+				D1FF6C0F69AC698E50F50AEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +146,13 @@
 		6CCB1AA428A180C100D1781D /* Joopel */ = {
 			isa = PBXGroup;
 			children = (
-				6CCB1AA528A180C100D1781D /* AppDelegate.swift */,
-				6CCB1AA728A180C100D1781D /* SceneDelegate.swift */,
-				6CCB1AA928A180C100D1781D /* ViewController.swift */,
+				6CCB1ADE28A1904400D1781D /* Views */,
+				6CCB1ADD28A1900700D1781D /* Managers */,
+				6CCB1ADC28A18FEF00D1781D /* ViewModels */,
+				6CCB1ADB28A18FE900D1781D /* Models */,
+				6CCB1AD828A18EED00D1781D /* Controllers */,
+				6CCB1AD728A18EA700D1781D /* Resources */,
 				6CCB1AAE28A180C200D1781D /* Assets.xcassets */,
-				6CCB1AD528A1864B00D1781D /* Main.storyboard */,
-				6CCB1AB028A180C200D1781D /* LaunchScreen.storyboard */,
 				6CCB1AB328A180C200D1781D /* Info.plist */,
 			);
 			path = Joopel;
@@ -127,6 +175,123 @@
 			path = JoopelUITests;
 			sourceTree = "<group>";
 		};
+		6CCB1AD728A18EA700D1781D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1B0428A2512500D1781D /* GoogleService-Info.plist */,
+				6CCB1AA528A180C100D1781D /* AppDelegate.swift */,
+				6CCB1AA728A180C100D1781D /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CCB1AD828A18EED00D1781D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1AE028A1913100D1781D /* Other */,
+				6CCB1ADF28A1911300D1781D /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6CCB1ADB28A18FE900D1781D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6CCB1ADC28A18FEF00D1781D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6CCB1ADD28A1900700D1781D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1AF828A1930000D1781D /* APICaller.swift */,
+				6CCB1AFA28A1931E00D1781D /* StorageManager.swift */,
+				6CCB1AFC28A1932D00D1781D /* DatabaseManager.swift */,
+				6CCB1AFE28A1934500D1781D /* AuthentificationManager.swift */,
+				6CCB1B0028A1936500D1781D /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6CCB1ADE28A1904400D1781D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1AF428A1928800D1781D /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CCB1ADF28A1911300D1781D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1AE128A1916C00D1781D /* ExploreViewController.swift */,
+				6CCB1AA928A180C100D1781D /* HomeViewController.swift */,
+				6CCB1AE428A1919B00D1781D /* CameraViewController.swift */,
+				6CCB1AE628A191AD00D1781D /* NotificationsViewController.swift */,
+				6CCB1AE828A191C500D1781D /* ProfileViewController.swift */,
+				6CCB1AF228A1926300D1781D /* TabBarViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6CCB1AE028A1913100D1781D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1AEA28A191EC00D1781D /* UserListViewController.swift */,
+				6CCB1AEC28A191FA00D1781D /* SigninViewController.swift */,
+				6CCB1AEE28A1921100D1781D /* SignUpViewController.swift */,
+				6CCB1AF028A1922500D1781D /* SettingsViewController.swift */,
+				6CCB1AF628A192C700D1781D /* PostViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6CCB1AF428A1928800D1781D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1AF528A1929F00D1781D /* Other */,
+				6CCB1AB028A180C200D1781D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CCB1AF528A1929F00D1781D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D1FF6C0F69AC698E50F50AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDACC2DBD418AF2638F943F /* Pods_Joopel.framework */,
+				677B5FF07B80049D7CB61D5F /* Pods_Joopel_JoopelUITests.framework */,
+				FAFE949299D3ED5B3190B3C1 /* Pods_JoopelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C216E6E3E8DCE9CF3D1491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D231F5306B7F4BACEB92FFF5 /* Pods-Joopel.debug.xcconfig */,
+				5C247DD078A0CED2328AD0CF /* Pods-Joopel.release.xcconfig */,
+				20B23D36CD29C2A01B9EAFF5 /* Pods-Joopel-JoopelUITests.debug.xcconfig */,
+				2629E483FA999D32D3EFC3C3 /* Pods-Joopel-JoopelUITests.release.xcconfig */,
+				97120F5AB0D70162A60FBA21 /* Pods-JoopelTests.debug.xcconfig */,
+				0E3D2552F15EA2D1CC7C6183 /* Pods-JoopelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CCB1ACC28A180C300D1781D /* Build configuration list for PBXNativeTarget "Joopel" */;
 			buildPhases = (
+				D047D55DEFB4E51B95451027 /* [CP] Check Pods Manifest.lock */,
 				6CCB1A9E28A180C100D1781D /* Sources */,
 				6CCB1A9F28A180C100D1781D /* Frameworks */,
 				6CCB1AA028A180C100D1781D /* Resources */,
+				CACB691845B41E0CD83189F6 /* [CP] Embed Pods Frameworks */,
+				6CCB1B0628A2576500D1781D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CCB1ACF28A180C300D1781D /* Build configuration list for PBXNativeTarget "JoopelTests" */;
 			buildPhases = (
+				D44804526FF62D8516ED0DDE /* [CP] Check Pods Manifest.lock */,
 				6CCB1AB428A180C300D1781D /* Sources */,
 				6CCB1AB528A180C300D1781D /* Frameworks */,
 				6CCB1AB628A180C300D1781D /* Resources */,
@@ -169,9 +338,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CCB1AD228A180C300D1781D /* Build configuration list for PBXNativeTarget "JoopelUITests" */;
 			buildPhases = (
+				AA5226A50DBA22EA815B2DF6 /* [CP] Check Pods Manifest.lock */,
 				6CCB1ABE28A180C300D1781D /* Sources */,
 				6CCB1ABF28A180C300D1781D /* Frameworks */,
 				6CCB1AC028A180C300D1781D /* Resources */,
+				DE938C3C971CF9E239B6D4F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +402,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCB1AD628A1864B00D1781D /* Main.storyboard in Resources */,
 				6CCB1AB228A180C200D1781D /* LaunchScreen.storyboard in Resources */,
 				6CCB1AAF28A180C200D1781D /* Assets.xcassets in Resources */,
+				6CCB1B0528A2512500D1781D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +424,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CCB1B0628A2576500D1781D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		AA5226A50DBA22EA815B2DF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Joopel-JoopelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACB691845B41E0CD83189F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Joopel/Pods-Joopel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Joopel/Pods-Joopel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Joopel/Pods-Joopel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D047D55DEFB4E51B95451027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Joopel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44804526FF62D8516ED0DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JoopelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE938C3C971CF9E239B6D4F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Joopel-JoopelUITests/Pods-Joopel-JoopelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Joopel-JoopelUITests/Pods-Joopel-JoopelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Joopel-JoopelUITests/Pods-Joopel-JoopelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CCB1A9E28A180C100D1781D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCB1AAA28A180C100D1781D /* ViewController.swift in Sources */,
+				6CCB1B0128A1936500D1781D /* HapticsManager.swift in Sources */,
+				6CCB1AFF28A1934500D1781D /* AuthentificationManager.swift in Sources */,
+				6CCB1AFD28A1932D00D1781D /* DatabaseManager.swift in Sources */,
+				6CCB1AE228A1916C00D1781D /* ExploreViewController.swift in Sources */,
+				6CCB1AEB28A191EC00D1781D /* UserListViewController.swift in Sources */,
+				6CCB1AF128A1922500D1781D /* SettingsViewController.swift in Sources */,
+				6CCB1AF928A1930000D1781D /* APICaller.swift in Sources */,
+				6CCB1AF728A192C700D1781D /* PostViewController.swift in Sources */,
+				6CCB1AE528A1919B00D1781D /* CameraViewController.swift in Sources */,
+				6CCB1AF328A1926300D1781D /* TabBarViewController.swift in Sources */,
+				6CCB1AAA28A180C100D1781D /* HomeViewController.swift in Sources */,
+				6CCB1AEF28A1921100D1781D /* SignUpViewController.swift in Sources */,
+				6CCB1AE728A191AD00D1781D /* NotificationsViewController.swift in Sources */,
+				6CCB1AE928A191C500D1781D /* ProfileViewController.swift in Sources */,
 				6CCB1AA628A180C100D1781D /* AppDelegate.swift in Sources */,
+				6CCB1AFB28A1931E00D1781D /* StorageManager.swift in Sources */,
 				6CCB1AA828A180C100D1781D /* SceneDelegate.swift in Sources */,
+				6CCB1AED28A191FA00D1781D /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +730,7 @@
 		};
 		6CCB1ACD28A180C300D1781D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D231F5306B7F4BACEB92FFF5 /* Pods-Joopel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,7 +742,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Joopel;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -454,6 +760,7 @@
 		};
 		6CCB1ACE28A180C300D1781D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C247DD078A0CED2328AD0CF /* Pods-Joopel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,7 +772,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Joopel;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -484,6 +790,7 @@
 		};
 		6CCB1AD028A180C300D1781D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97120F5AB0D70162A60FBA21 /* Pods-JoopelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +811,7 @@
 		};
 		6CCB1AD128A180C300D1781D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3D2552F15EA2D1CC7C6183 /* Pods-JoopelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +832,7 @@
 		};
 		6CCB1AD328A180C300D1781D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B23D36CD29C2A01B9EAFF5 /* Pods-Joopel-JoopelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +851,7 @@
 		};
 		6CCB1AD428A180C300D1781D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2629E483FA999D32D3EFC3C3 /* Pods-Joopel-JoopelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

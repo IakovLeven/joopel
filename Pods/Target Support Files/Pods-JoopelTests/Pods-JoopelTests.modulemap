@@ -1,0 +1,6 @@
+framework module Pods_JoopelTests {
+  umbrella header "Pods-JoopelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
