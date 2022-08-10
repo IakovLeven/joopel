@@ -34,6 +34,8 @@
 		6CCB1AFF28A1934500D1781D /* AuthentificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1AFE28A1934500D1781D /* AuthentificationManager.swift */; };
 		6CCB1B0128A1936500D1781D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1B0028A1936500D1781D /* HapticsManager.swift */; };
 		6CCB1B0528A2512500D1781D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCB1B0428A2512500D1781D /* GoogleService-Info.plist */; };
+		6CCB1B0828A27EEC00D1781D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1B0728A27EEC00D1781D /* Extensions.swift */; };
+		6CCB1B0A28A3DBAC00D1781D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1B0928A3DBAC00D1781D /* PostModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		6CCB1AFE28A1934500D1781D /* AuthentificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationManager.swift; sourceTree = "<group>"; };
 		6CCB1B0028A1936500D1781D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		6CCB1B0428A2512500D1781D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6CCB1B0728A27EEC00D1781D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6CCB1B0928A3DBAC00D1781D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		97120F5AB0D70162A60FBA21 /* Pods-JoopelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoopelTests.debug.xcconfig"; path = "Target Support Files/Pods-JoopelTests/Pods-JoopelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D231F5306B7F4BACEB92FFF5 /* Pods-Joopel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joopel.debug.xcconfig"; path = "Target Support Files/Pods-Joopel/Pods-Joopel.debug.xcconfig"; sourceTree = "<group>"; };
 		FAFE949299D3ED5B3190B3C1 /* Pods_JoopelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoopelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +185,7 @@
 				6CCB1B0428A2512500D1781D /* GoogleService-Info.plist */,
 				6CCB1AA528A180C100D1781D /* AppDelegate.swift */,
 				6CCB1AA728A180C100D1781D /* SceneDelegate.swift */,
+				6CCB1B0728A27EEC00D1781D /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 		6CCB1ADB28A18FE900D1781D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6CCB1B0928A3DBAC00D1781D /* PostModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -550,12 +556,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CCB1B0128A1936500D1781D /* HapticsManager.swift in Sources */,
+				6CCB1B0A28A3DBAC00D1781D /* PostModel.swift in Sources */,
 				6CCB1AFF28A1934500D1781D /* AuthentificationManager.swift in Sources */,
 				6CCB1AFD28A1932D00D1781D /* DatabaseManager.swift in Sources */,
 				6CCB1AE228A1916C00D1781D /* ExploreViewController.swift in Sources */,
 				6CCB1AEB28A191EC00D1781D /* UserListViewController.swift in Sources */,
 				6CCB1AF128A1922500D1781D /* SettingsViewController.swift in Sources */,
 				6CCB1AF928A1930000D1781D /* APICaller.swift in Sources */,
+				6CCB1B0828A27EEC00D1781D /* Extensions.swift in Sources */,
 				6CCB1AF728A192C700D1781D /* PostViewController.swift in Sources */,
 				6CCB1AE528A1919B00D1781D /* CameraViewController.swift in Sources */,
 				6CCB1AF328A1926300D1781D /* TabBarViewController.swift in Sources */,
