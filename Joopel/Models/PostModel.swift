@@ -11,6 +11,13 @@ import Foundation
 struct PostModel {
     let identifier: String
     
+    let user = User(
+        username: "kanyewest",
+        profilePictureURL: nil,
+        identifier: UUID().uuidString)
+    
+    var isLikedByCurrentUser = false
+    
     static func mockModels() -> [PostModel]{
         var posts = [PostModel]()
         for _ in 0...100{
@@ -18,6 +25,6 @@ struct PostModel {
             posts.append(post)
         }
         return posts
-    
+        
     }
 }
