@@ -126,10 +126,12 @@ class ExploreViewController: UIViewController {
             frame: .zero,
             collectionViewLayout: layout
         )
+        
         collectionView.register(
             UICollectionViewCell.self,
             forCellWithReuseIdentifier: "cell"
         )
+        
         collectionView.register(ExploreBannerCollectionViewCell.self, forCellWithReuseIdentifier: ExploreBannerCollectionViewCell.identifier)
         
         collectionView.register(ExplorePostCollectionViewCell.self, forCellWithReuseIdentifier: ExplorePostCollectionViewCell.identifier)

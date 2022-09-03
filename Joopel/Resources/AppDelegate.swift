@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.makeKeyAndVisible()
         
         FirebaseApp.configure()
+
+        
         return true
     }
 

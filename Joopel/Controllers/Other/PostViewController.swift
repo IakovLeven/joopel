@@ -18,6 +18,19 @@ class PostViewController: UIViewController {
     weak var delegate: PostViewControllerDelegate?
     var model: PostModel
     
+    private let slider: UISlider = {
+        let slider = UISlider()
+        let sliderImage = UIImage(named: "slider_image_2")
+        let topFirstImage = UIImage(named: "Slider_Top _First")
+        slider.minimumValue = 0
+        slider.maximumValue = 100
+        slider.tintColor = .systemPink
+        slider.maximumValueImage = topFirstImage
+        slider.setThumbImage(sliderImage, for: .normal)
+        
+        return slider
+    }()
+    
     private let likeButton: UIButton = {// кнопка лайка
         let button = UIButton()
         button.setBackgroundImage(UIImage(systemName: "heart.fill"), for: .normal)
@@ -46,7 +59,7 @@ class PostViewController: UIViewController {
     
     private let shareButton: UIButton = { // кнопка поделиться
         let button = UIButton()
-        button.setBackgroundImage(UIImage(systemName: "square.and.arrow.up"), for: .normal)
+        button.setBackgroundImage(UIImage(named: "share"), for: .normal)
         button.imageView?.contentMode = .scaleAspectFit
         button.tintColor = .white
         return button
@@ -80,10 +93,28 @@ class PostViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureVideo()
-        
+
         let colors: [UIColor] = [
             .red, .green, .blue, .brown, .black, .white, .yellow, .orange
         ]
+        /*let storage = Storage.storage()
+         let gsReference = storage.reference(forURL: "gs://joopel-b6c66.appspot.com/photos/ylevenn/photo")
+         gsReference.getData(maxSize: 1 * 1024 * 1024) { data, error in
+           if let error = error {
+             // Uh-oh, an error occurred!
+           } else {
+             // Data for "images/island.jpg" is returned
+               let image = UIImage(data: data!)
+               let vc = UIImageView(image: image)
+               vc.frame = self.view.bounds
+               self.view.addSubview(vc)
+               self.setUpButtons()
+               self.setUpDoubleTapToLike()
+               self.view.addSubview(self.captionLabel)
+               self.view.addSubview(self.profileButton)
+               self.profileButton.addTarget(self, action: #selector(self.didTapProfileButton), for: .touchUpInside)
+           }
+         }*/
         view.backgroundColor = colors.randomElement()
         
         setUpButtons()
@@ -96,9 +127,9 @@ class PostViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
+
         let size: CGFloat = 40
-        let yStart: CGFloat = view.height - (size * 4) - view.safeAreaInsets.bottom - (tabBarController?.tabBar.height ?? 0)
+        let yStart: CGFloat = view.height - (size * 4) - view.safeAreaInsets.bottom
         for (index, button) in [likeButton, commentButton, shareButton].enumerated(){
             button.frame = CGRect(x: view.width - size - 10,
                                   y: yStart + (CGFloat(index) * size) + (CGFloat(index) * 10),
@@ -108,8 +139,13 @@ class PostViewController: UIViewController {
         captionLabel.sizeToFit()
         let labelSize = captionLabel.sizeThatFits(CGSize(width: view.height - size - 12,
                                                          height: view.height))
+        
+        slider.frame = CGRect(x: -185, y: view.height / 2 - 225, width: 450, height: 450)
+        let trans: CGAffineTransform  = CGAffineTransform(rotationAngle: Double.pi * 1.5)
+        slider.transform = trans
+        
         captionLabel.frame = CGRect(x: 5, // настройка окна для текста
-                                    y: view.height - 10 - view.safeAreaInsets.bottom - labelSize.height - (tabBarController?.tabBar.height ?? 0),
+                                    y: view.height - 10 - view.safeAreaInsets.bottom - labelSize.height,
                                     width: view.width - size - 12, height: labelSize.height
         )
         
@@ -124,10 +160,12 @@ class PostViewController: UIViewController {
         view.addSubview(likeButton)
         view.addSubview(commentButton)
         view.addSubview(shareButton)
+        view.addSubview(slider)
         
         likeButton.addTarget(self, action: #selector(didTapLike), for: .touchUpInside)
         commentButton.addTarget(self, action: #selector(didTapComment), for: .touchUpInside)
         shareButton.addTarget(self, action: #selector(didTapShare), for: .touchUpInside)
+        slider.addTarget(self, action: #selector(sliderDidChangeValue), for: .valueChanged)
         
     }
     
@@ -187,6 +225,23 @@ class PostViewController: UIViewController {
         tap.numberOfTapsRequired = 2
         view.addGestureRecognizer(tap)
         view.isUserInteractionEnabled = true
+    }
+    
+    @objc private func sliderDidChangeValue() {
+        print(slider.value)
+        if 0.0 <= slider.value, slider.value < 25.0 {
+            slider.maximumValueImage = UIImage(named: "Slider_Top _First")
+        }
+        else if 25.0 <= slider.value, slider.value < 50.0 {
+            slider.maximumValueImage = UIImage(named: "Slider_Top _Second")
+        }
+        else if 50.0 <= slider.value, slider.value < 75.0 {
+            slider.maximumValueImage = UIImage(named: "Slider_Top_Third")
+        }
+        else if 75.0 <= slider.value, slider.value <= 100.0 {
+            slider.maximumValueImage = UIImage(named: "Slider_Top")
+        }
+        
     }
     
     @objc private func didDoubleTap(gesture: UITapGestureRecognizer){

@@ -43,13 +43,14 @@ class HomeViewController: UIViewController {
     private var followingPosts = PostModel.mockModels()
 
     
-    // Lificycle
+    // MARK: -Lificycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         view.addSubview(horizontalScrollView)
         setUpFeed()
+        horizontalScrollView.contentInsetAdjustmentBehavior = .never
         horizontalScrollView.delegate = self
         horizontalScrollView.contentOffset = CGPoint(x: view.width, y: 0)
         setUpHeaderButtons()

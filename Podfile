@@ -13,6 +13,7 @@ target 'Joopel' do
 
   pod 'Appirater'
   pod 'SDWebImage'
+  pod 'ProgressHUD'
 
   target 'JoopelTests' do
     inherit! :search_paths
