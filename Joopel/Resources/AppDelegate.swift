@@ -20,8 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = window
         window.makeKeyAndVisible()
         
+        
         FirebaseApp.configure()
-
+        /*
+        AuthManager.shared.signOut{_ in
+            
+        }
+         */
         
         return true
     }
