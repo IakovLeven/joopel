@@ -44,10 +44,14 @@ class TabBarViewController: UITabBarController {
         let explore = ExploreViewController()
         let camera = CameraViewController()
         let notifications = NotificationsViewController()
+        var urlString: String?
+        if let cachedIrlString = UserDefaults.standard.string(forKey: "profile_picture_url") {
+            urlString = cachedIrlString
+        }
         let profile = ProfileViewController(
             user: User(
                 username: UserDefaults.standard.string(forKey: "username")?.uppercased() ?? "Me",
-                profilePictureURL: nil,
+                profilePictureURL: URL(string: urlString ?? ""),
                 identifier: UserDefaults.standard.string(forKey: "username")?.lowercased () ?? ""
             )
         )

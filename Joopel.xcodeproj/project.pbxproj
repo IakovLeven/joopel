@@ -66,6 +66,7 @@
 		6CE542D628BE9D6600871D7D /* NotificationsPostCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE542D528BE9D6600871D7D /* NotificationsPostCommentTableViewCell.swift */; };
 		6CE542DC28C33C3200871D7D /* ProfileHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE542DB28C33C3200871D7D /* ProfileHeaderCollectionReusableView.swift */; };
 		6CE542DE28C3705700871D7D /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE542DD28C3705700871D7D /* ProfileHeaderViewModel.swift */; };
+		6CE542E028C4935C00871D7D /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE542DF28C4935C00871D7D /* PostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		6CE542D828C1022E00871D7D /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		6CE542DB28C33C3200871D7D /* ProfileHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		6CE542DD28C3705700871D7D /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		6CE542DF28C4935C00871D7D /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 		97120F5AB0D70162A60FBA21 /* Pods-JoopelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoopelTests.debug.xcconfig"; path = "Target Support Files/Pods-JoopelTests/Pods-JoopelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D231F5306B7F4BACEB92FFF5 /* Pods-Joopel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joopel.debug.xcconfig"; path = "Target Support Files/Pods-Joopel/Pods-Joopel.debug.xcconfig"; sourceTree = "<group>"; };
 		FAFE949299D3ED5B3190B3C1 /* Pods_JoopelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoopelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -352,6 +354,7 @@
 				6CE542B028ACF82400871D7D /* Explore */,
 				6CCB1B1128AAB17C00D1781D /* CommentTableViewCell.swift */,
 				6CE542C828B4E8BD00871D7D /* RecordButton.swift */,
+				6CE542DF28C4935C00871D7D /* PostCollectionViewCell.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -689,6 +692,7 @@
 				6CE542C728AE5FFC00871D7D /* AuthButton.swift in Sources */,
 				6CCB1AFD28A1932D00D1781D /* DatabaseManager.swift in Sources */,
 				6CCB1AE228A1916C00D1781D /* ExploreViewController.swift in Sources */,
+				6CE542E028C4935C00871D7D /* PostCollectionViewCell.swift in Sources */,
 				6CCB1AEB28A191EC00D1781D /* UserListViewController.swift in Sources */,
 				6CCB1AF128A1922500D1781D /* SettingsViewController.swift in Sources */,
 				6CE542AD28ACEA5C00871D7D /* ExploreManager.swift in Sources */,

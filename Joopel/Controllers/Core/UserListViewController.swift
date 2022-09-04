@@ -10,8 +10,8 @@ import UIKit
 class UserListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     let tableView: UITableView = {
-        let tableView = UITableView()
-        tableView.register(UITableViewCell.self, forHeaderFooterViewReuseIdentifier: "cell")
+        let tableView = UITableView(frame: .zero)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return tableView
     }()
     
